@@ -31,7 +31,8 @@ function TopNav(props) {
           </div>
         </Navbar.Brand>
 
-        <a href="#" className="navbar__toggleBtn" onClick={toggleMenu}>
+        <a href="#!" className="navbar__toggleBtn" onClick={toggleMenu}>
+        {/* <a href="()=>{}" className="navbar__toggleBtn" onClick={toggleMenu}> */}
           <i className="fa-solid fa-bars"></i>
         </a>
 

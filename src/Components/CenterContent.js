@@ -4,7 +4,7 @@ import Reservation from "../Components/Reservation";
 import "../css/CenterContent.css";
 
 function CenterContent() {
-  const [kk, setKk] = useState(null);
+  const [kk] = useState(null);
   useEffect(() => {
     //kk가 업데이트되면 이 코드가 실행
   }, [kk]);
