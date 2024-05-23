@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import React from "react";
+// import { useParams } from "react-router-dom";
 import TopNav from "../Components/TopNav";
 import Footer from "../Components/Footer";
 import { Accordion, Carousel, Container, Nav } from "react-bootstrap";

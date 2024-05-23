@@ -49,7 +49,7 @@ function Camping({ camping, onNavigate ,showAddress }) {
   return (
     <div className="캠핑장 목록">
       <div className="list" style={{ position: 'relative' }}>
-        <img src={camping.firstImageUrl ? camping.firstImageUrl : defaultImage} style={{ width: "50%" }} alt='image'/>
+        <img src={camping.firstImageUrl ? camping.firstImageUrl : defaultImage} style={{ width: "50%" }} alt="image"/>
         <div className="infomation">
           <h2>{camping.facltNm}</h2>
           <hr style={{ width: "80%" }} />

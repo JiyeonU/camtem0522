@@ -11,7 +11,7 @@ import "../css/MainPage.css";
 
 function MainPage() {
   const [location, setLocation] = useState("서울");
-  const today = new Date();
+  // const today = new Date();
   // const todayDateString = today.toLocaleDateString("ko-KR");
 
   const scrollToDateSection = () => {
